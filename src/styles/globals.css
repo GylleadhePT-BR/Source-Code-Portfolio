@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+#name {
+  background: rgb(30, 109, 131);
+  background: -moz-linear-gradient(
+    90deg,
+    rgba(30, 109, 131, 1) 0%,
+    rgba(94, 218, 235, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(30, 109, 131, 1) 0%,
+    rgba(94, 218, 235, 1) 100%
+  );
+  background: linear-gradient(
+    90deg,
+    rgba(30, 109, 131, 1) 0%,
+    rgba(94, 218, 235, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1e6d83",endColorstr="#5edaeb",GradientType=1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#card,
+#card-skill {
+  background: rgba(255, 255, 255, 0.99);
+  border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+    rgba(0, 0, 0, 0.45) 0px -36px 60px 20px inset,
+    rgba(0, 0, 0, 0.1) 0px -79px 60px 20px inset,
+    rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.9) 0px 4px 2px,
+    rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.69) 0px 16px 8px,
+    rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  transform: scale(0.9);
+  transition: 0.3s all ease;
+}
+.card{
+  box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+  rgba(0, 0, 0, 0.45) 0px -36px 60px 20px inset,
+  rgba(0, 0, 0, 0.1) 0px -79px 60px 20px inset,
+  rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.9) 0px 4px 2px,
+  rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.69) 0px 16px 8px,
+  rgba(0, 0, 0, 0.09) 0px 32px 16px;
+}
+
+.figma-s {
+  width: 45%;
+}
+.html-s {
+  width: 85%;
+}
+.css3-s {
+  width: 68%;
+}
+.framer-s {
+  width: 75%;
+}
+.python-s {
+  width: 60%;
+}
+.js-s {
+  width: 50%;
+}
+#store{
+  background-image:url(../img/e-commerce.png)
+}
+#portfolio-pj{
+  background-image:url(../img/portfolio.png)
+}
+#figma-pj{
+  background-image:url(../img/figma.png);
+  background-size:cover
+}
+#framer-pj{
+  background-image:url(../img/framer.png)
+}
+#parallax{
+  background-image:url(../img/parallax.png)
+}
+#calc{
+  background-image:url(../img/calc.png)
+}
